@@ -1,4 +1,3 @@
-import { Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -19,17 +18,6 @@ const Hero = () => {
           asChild
         >
           <a href="#pricing">Obtené el Blueprint</a>
-        </Button>
-        <Button
-          variant="outline"
-          size="lg"
-          className="rounded-full px-8 py-6 text-base border-border text-foreground hover:bg-secondary"
-          asChild
-        >
-          <a href="#why">
-            <Play className="w-4 h-4 mr-2 fill-current" />
-            Ver demo
-          </a>
         </Button>
       </div>
     </section>
