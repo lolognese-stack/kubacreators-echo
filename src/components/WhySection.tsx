@@ -1,14 +1,7 @@
-import { Check, TrendingUp, Users, Zap, Eye } from "lucide-react";
+import { Check } from "lucide-react";
 import creatorSample from "@/assets/creator-sample.jpg";
 import lifestyleSample from "@/assets/lifestyle-sample.jpg";
 import fanContentSample from "@/assets/fan-content-sample.jpg";
-
-const stats = [
-  { label: "Vistas en TikTok en 30 días", value: "+1.2M", icon: Eye },
-  { label: "Nuevos seguidores", value: "+18K", icon: Users },
-  { label: "Crecimiento de suscriptores", value: "+2.7x", icon: TrendingUp },
-  { label: "Aumento de engagement", value: "+340%", icon: Zap },
-];
 
 const features = [
   "Creadores IA hiperrealistas",
@@ -88,21 +81,9 @@ const WhySection = () => {
               ))}
             </ul>
           </div>
-
-          <div className="glass-card rounded-2xl p-8">
-            <h3 className="text-xl font-bold mb-2 text-foreground">Resultados de crecimiento</h3>
-            <p className="text-muted-foreground text-sm mb-6">
-              Te ayudamos a escalar tu contenido y audiencia de influencer IA más rápido.
-            </p>
-            <div className="grid grid-cols-2 gap-6">
-              {stats.map((s) => (
-                <div key={s.label}>
-                  <p className="text-2xl font-bold text-primary">{s.value}</p>
-                  <p className="text-xs text-muted-foreground mt-1">{s.label}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+          
+          {/* Tarjeta de "Resultados de crecimiento" eliminada */}
+          
         </div>
       </div>
     </section>
