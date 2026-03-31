@@ -7,19 +7,19 @@ import testimonial4 from "@/assets/testimonial-4.jpg";
 
 const testimonials = [
   {
-    quote: "Building AI creators seemed impossible until I found this system. Now I have 3 AI versions of myself creating content 24/7.",
+    quote: "Crear influencers IA parecía imposible hasta que encontré este sistema. Ahora tengo 3 versiones IA creando contenido 24/7.",
     img: testimonial1,
   },
   {
-    quote: "The blueprint made everything click. I went from zero to launching my first AI creator in under a week.",
+    quote: "El blueprint hizo que todo encajara. Pasé de cero a lanzar mi primer creador IA en menos de una semana.",
     img: testimonial2,
   },
   {
-    quote: "Best investment I've made. My AI creators generate more engaging content than I ever could alone.",
+    quote: "La mejor inversión que hice. Mis creadores IA generan contenido más atractivo del que yo podría crear solo.",
     img: testimonial3,
   },
   {
-    quote: "The community support is incredible. Everyone is scaling their AI influencer and sharing what works.",
+    quote: "El soporte es increíble. Todos están escalando su influencer IA y compartiendo lo que funciona.",
     img: testimonial4,
   },
 ];
@@ -36,17 +36,17 @@ const Testimonials = () => {
   return (
     <section id="testimonials" className="py-24 px-4">
       <div className="max-w-6xl mx-auto">
-        <p className="text-sm text-primary font-medium mb-3 text-center">Customer Stories</p>
+        <p className="text-sm text-primary font-medium mb-3 text-center">Testimonios</p>
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-4 text-foreground">
-          Creators scale faster with Kuba Creators.
+          Los creadores escalan más rápido con Luka Creates.
         </h2>
         <p className="text-muted-foreground text-center mb-6">
-          Real outcomes: more content, higher engagement, less effort.
+          Resultados reales: más contenido, mayor engagement, menos esfuerzo.
         </p>
         <div className="text-center mb-16">
           <Button variant="outline" className="rounded-full border-border text-foreground" asChild>
-            <a href="https://whop.com/kuba-creators/kuba-creators-community/" target="_blank" rel="noopener noreferrer">
-              Join the community
+            <a href="#pricing">
+              Obtené el Blueprint
             </a>
           </Button>
         </div>
@@ -56,7 +56,7 @@ const Testimonials = () => {
             <div key={i} className="glass-card rounded-2xl p-8 flex gap-5">
               <img
                 src={t.img}
-                alt="Customer"
+                alt="Cliente"
                 loading="lazy"
                 className="w-14 h-14 rounded-full object-cover flex-shrink-0"
               />
