@@ -66,7 +66,8 @@ const WhySection = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        {/* ACÁ ESTÁ EL ARREGLO DEL HUECO: Centramos la tarjeta que quedó */}
+        <div className="max-w-3xl mx-auto">
           <div className="glass-card rounded-2xl p-8">
             <h3 className="text-xl font-bold mb-2 text-foreground">Contenido IA que no parece IA</h3>
             <p className="text-muted-foreground text-sm mb-6">
@@ -81,10 +82,8 @@ const WhySection = () => {
               ))}
             </ul>
           </div>
-          
-          {/* Tarjeta de "Resultados de crecimiento" eliminada */}
-          
         </div>
+
       </div>
     </section>
   );
