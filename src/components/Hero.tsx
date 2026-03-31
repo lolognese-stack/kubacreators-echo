@@ -4,9 +4,6 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section className="relative pt-32 pb-16 text-center px-4">
-      <div className="inline-block mb-6 px-4 py-1.5 rounded-full border border-border text-sm text-muted-foreground">
-        Luka Creates ya está disponible
-      </div>
       <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-6 max-w-4xl mx-auto text-foreground">
         Generá y escalá{" "}
         <br className="hidden md:block" />
@@ -34,13 +31,6 @@ const Hero = () => {
             Ver demo
           </a>
         </Button>
-      </div>
-      <p className="mt-12 text-sm text-muted-foreground">La confianza de creadores que escalan sin esfuerzo</p>
-      <div className="flex items-center justify-center gap-8 mt-4 text-muted-foreground/50 font-semibold text-sm tracking-widest uppercase">
-        <span>Acme Co</span>
-        <span>Pulse</span>
-        <span>Orbit</span>
-        <span>Helix</span>
       </div>
     </section>
   );
